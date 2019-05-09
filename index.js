@@ -8,6 +8,6 @@ function nameToAttributes(drivers) {
   return drivers.map(function(d){
     nameArray = d.split(" ")
 
-    nameObject = {firstName: nameArray[0], lastName = nameArray[1]}
+    nameObject = {firstName: nameArray[0], lastName: nameArray[1]}
   })
 }
